@@ -13,19 +13,20 @@
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
         rel="stylesheet">
+
 </head>
 <link href="fonts.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <nav id="dynamic-nav" class="width-limit navbar navbar-expand-md navbar-dark fixed-top transparent ">
             <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"></a>
-            <button class="navbar-toggler" type="button">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-33">
                     <li class="nav-item active">
                         <a class="nav-link" href="#home">home</a>
@@ -50,7 +51,7 @@
     <main>
         <div class="container-fluid width-limit">
             <div class="row">
-                <div class=" caption text-center">
+                <div class="caption text-center">
                     <h3>Welcome To Our Studio!</h3>
                     <h1>it's nice to meet you</h1>
                     <a class="btn btn-custom" href="#">Tell me more</a>
@@ -58,41 +59,40 @@
             </div>
         </div>
 
-        <section class="container-fluid width-limit bg-white">
+        <section id="services" class="container-fluid width-limit bg-white">
             <div id="second-section" class="row">
                 <div class="services text-center col">
                     <h1>services</h1>
                     <p>Proin iaculis purus consequat sem cure. </p>
-
                 </div>
             </div>
             <div class="row">
-                <div class="offset-2"></div>
-                <div class="text-center col-22p7 service">
+                <div class="offset-xl-2"></div>
+                <div class="text-center col-sm-4 col-22p7 service">
                     <img src="img/eCommerce.png" alt="e-Commerce" />
                     <h4>E-Commerce</h4>
                     <p>Proin iaculis purus consequat sem cure
                         digni ssim. Donec porttitora entum suscipit
                         aenean rhoncus posuere odio in tincidunt.</p>
                 </div>
-                <div class="text-center col-22p7 service">
+                <div class="text-center col-sm-4 col-22p7 service">
                     <img src="img/responsiveWeb.png" alt="Photo" />
                     <h4>Responsive Web</h4>
                     <p>Proin iaculis purus consequat sem cure
                         digni ssim. Donec porttitora entum suscipit
                         aenean rhoncus posuere odio in tincidunt.</p>
                 </div>
-                <div class="text-center col-22p7 service">
+                <div class="text-center col-sm-4 col-22p7 service">
                     <img src="img/webSecurity.png" alt="Security" />
                     <h4>Web Security</h4>
                     <p>Proin iaculis purus consequat sem cure
                         digni ssim. Donec porttitora entum suscipit
                         aenean rhoncus posuere odio in tincidunt.</p>
                 </div>
-                <div class="offset-2"></div>
+                <div class="offset-xl-2"></div>
             </div>
         </section>
-        <section class="container-fluid width-limit bg-grey">
+        <section id="portfolio" class="container-fluid width-limit bg-grey">
             <div class="row">
                 <div class="portfolios text-center col">
                     <h1>Our Portfolio</h1>
@@ -100,45 +100,42 @@
                 </div>
             </div>
             <div class="row">
-                <div class="offset-2"></div>
-                <div class="text-center col-22p7 portfolio">
+                <div class="offset-xl-2"></div>
+                <div class="text-center col-md-6 col-lg-4  col-22p7 portfolio">
                     <img src="img/portfolio6.png" alt="e-Commerce" />
                     <h4>Ebony & Ivory</h4>
                     <p>Branding</p>
                 </div>
-                <div class="text-center col-22p7 portfolio">
+                <div class="text-center col-md-6 col-lg-4  col-22p7 portfolio">
                     <img src="img/portfolio5.png" alt="Photo" />
                     <h4>Smart Stanionary</h4>
                     <p>Print Design</p>
                 </div>
-                <div class="text-center col-22p7 portfolio">
+                <div class="text-center col-md-6 col-lg-4 col-22p7 portfolio">
                     <img src="img/portfolio4.png" alt="Security" />
                     <h4>Clever Poster</h4>
                     <p>Print Design</p>
                 </div>
-                <div class="offset-2"></div>
-            </div>
-            <div class="row">
-                <div class="offset-2"></div>
-                <div class="text-center col-22p7 portfolio">
+                <div class="offset-xl-2"></div>
+                <div class="text-center col-md-6 col-lg-4 col-22p7 portfolio">
                     <img src="img/portfolio1.png" alt="e-Commerce" />
                     <h4>Vinyl Record</h4>
                     <p>Product Mock Up</p>
                 </div>
-                <div class="text-center col-22p7 portfolio">
+                <div class="text-center col-md-6 col-lg-4 col-22p7 portfolio">
                     <img src="img/portfolio2.png" alt="Photo" />
                     <h4>Treehouse Template</h4>
                     <p>Web Design</p>
                 </div>
-                <div class="text-center col-22p7 portfolio">
+                <div class="text-center col-md-6 col-lg-4 col-22p7 portfolio">
                     <img src="img/portfolio3.png" alt="Security" />
                     <h4>Burned Logo</h4>
                     <p>Branding</p>
                 </div>
-                <div class="offset-2"></div>
+                <div class="offset-xl-2"></div>
             </div>
         </section>
-        <section class="container-fluid width-limit bg-white">
+        <section id="about" class="container-fluid width-limit bg-white">
             <div class="row">
                 <div class="aboutus text-center col">
                     <h1>about us</h1>
@@ -146,102 +143,109 @@
                 </div>
             </div>
             <div class="row">
-                <div class="offset-2"></div>
-                <div class="text-right col-sm-3 about">
+                <div class="offset-xl-2"></div>
+                <div class="text-right col-5 col-xl-3 about">
                     <h4>july 2010</h4>
                     <h4><span>Our Humble Beginings</span></h4>
-                    <p>Proin iaculis purus consequat sem cure </p>
-                    <p>digni ssim. Donec porttitora entum suscipit </p>
-                    <p>aenean rhoncus posuere odio in tincidunt. Proin </p>
-                    <p>iaculis purus consequat sem cure digni </p>
-                    <p>ssim. Donec porttitora entum suscipit.</p>
+                    <span class="d-none d-md-block">
+                        <p>Proin iaculis purus consequat sem cure </p>
+                        <p>digni ssim. Donec porttitora entum suscipit </p>
+                        <p>aenean rhoncus posuere odio in tincidunt. Proin </p>
+                        <p>iaculis purus consequat sem cure digni </p>
+                        <p>ssim. Donec porttitora entum suscipit.</p>
+                    </span>
                 </div>
-                <div class="text-center col-sm-2 about">
+                <div class="text-center col-2 about">
                     <img src="img/jul2010.png" alt="Photo" />
                 </div>
-
-                <div class="offset-5"></div>
+                <div class="offset-xl-5"></div>
             </div>
             <div class="row">
-                <div class="offset-5"></div>
-                <div class="text-center col-sm-2">
+                <div class="offset-xl-5"></div>
+                <div class="text-center d-none d-md-block col-md-2">
                     <img src="img/vertLine.png" alt="Photo" />
                 </div>
-                <div class="offset-5"></div>
+                <div class="offset-xl-5"></div>
             </div>
             <div class="row">
                 <div class="offset-5"></div>
-                <div class="text-center col-sm-2 about">
+                <div class="text-center col-2 about">
                     <img src="img/jan2011.png" alt="Photo" />
                 </div>
-                <div class="text-left col-sm-3 about">
+                <div class="text-left col-5 col-xl-3 about">
                     <h4>january 2011</h4>
                     <h4><span>Facing Startup Battles</span></h4>
-                    <p>Proin iaculis purus consequat sem cure </p>
-                    <p>digni ssim. Donec porttitora entum suscipit </p>
-                    <p>aenean rhoncus posuere odio in tincidunt. Proin </p>
-                    <p>iaculis purus consequat sem cure digni </p>
-                    <p>ssim. Donec porttitora entum suscipit aenean </p>
-                    <p>rhoncus posuere odio in tincidunt.</p>
+                    <span class="d-none d-md-block">
+                        <p>Proin iaculis purus consequat sem cure </p>
+                        <p>digni ssim. Donec porttitora entum suscipit </p>
+                        <p>aenean rhoncus posuere odio in tincidunt. Proin </p>
+                        <p>iaculis purus consequat sem cure digni </p>
+                        <p>ssim. Donec porttitora entum suscipit aenean </p>
+                        <p>rhoncus posuere odio in tincidunt.</p>
+                    </span>
                 </div>
-                <div class="offset-2"></div>
+                <div class="offset-xl-2"></div>
             </div>
             <div class="row">
                 <div class="offset-5"></div>
-                <div class="text-center col-sm-2">
+                <div class="text-center d-none d-md-block col-md-2">
                     <img src="img/vertLine.png" alt="Photo" />
                 </div>
                 <div class="offset-5"></div>
             </div>
             <div class="row">
-                <div class="offset-2"></div>
-                <div class="text-right col-sm-3 about">
+                <div class="offset-xl-2"></div>
+                <div class="text-right col-5 col-xl-3 about">
                     <h4>december 2012</h4>
                     <h4><span>Enter The Dark days</span></h4>
-                    <p> Proin iaculis purus consequat sem cure </p>
-                    <p> digni ssim. Donec porttitora entum suscipit </p>
-                    <p> aenean rhoncus posuere odio in tincidunt. Proin </p>
-                    <p> iaculis purus consequat sem cure digni.</p>
+                    <span class="d-none d-md-block">
+                        <p> Proin iaculis purus consequat sem cure </p>
+                        <p> digni ssim. Donec porttitora entum suscipit </p>
+                        <p> aenean rhoncus posuere odio in tincidunt. Proin </p>
+                        <p> iaculis purus consequat sem cure digni.</p>
+                    </span>
                 </div>
-                <div class="text-center col-sm-2 about">
+                <div class="text-center col-2 about">
                     <img src="img/dec2012.png" alt="Photo" />
                 </div>
 
-                <div class="offset-5"></div>
+                <div class="offset-xl-5"></div>
             </div>
             <div class="row">
                 <div class="offset-5"></div>
-                <div class="text-center col-sm-2">
+                <div class="text-center d-none d-md-block col-md-2">
                     <img src="img/vertLine.png" alt="Photo" />
                 </div>
                 <div class="offset-5"></div>
             </div>
             <div class="row">
                 <div class="offset-5"></div>
-                <div class="text-center col-sm-2 about">
+                <div class="text-center col-2 about">
                     <img src="img/feb2014.png" alt="Photo" />
                 </div>
-                <div class="text-left col-sm-3 about">
+                <div class="text-left col-5 col-xl-3 about">
                     <h4>february 2014</h4>
                     <h4><span>Our Triumph</span></h4>
-                    <p> Proin iaculis purus consequat sem cure </p>
-                    <p> digni ssim. Donec porttitora entum suscipit </p>
-                    <p> aenean rhoncus posuere odio in tincidunt. Proin </p>
-                    <p> iaculis purus consequat sem cure digni </p>
-                    <p> ssim. Donec porttitora entum suscipit aenean.</p>
+                    <span class="d-none d-md-block">
+                        <p> Proin iaculis purus consequat sem cure </p>
+                        <p> digni ssim. Donec porttitora entum suscipit </p>
+                        <p> aenean rhoncus posuere odio in tincidunt. Proin </p>
+                        <p> iaculis purus consequat sem cure digni </p>
+                        <p> ssim. Donec porttitora entum suscipit aenean.</p>
+                    </span>
                 </div>
-                <div class="offset-2"></div>
+                <div class="offset-xl-2"></div>
             </div>
             <div class="row">
                 <div class="offset-5"></div>
-                <div class="text-center col-sm-2">
+                <div class="text-center d-none d-md-block col-md-2">
                     <img src="img/vertLine.png" alt="Photo" />
                 </div>
                 <div class="offset-5"></div>
             </div>
             <div class="row">
                 <div class="offset-5"></div>
-                <div class="text-center col-sm-2 about about-last">
+                <div class="text-center col-2 about about-last">
                     <h5>our story continues ...</h5>
                 </div>
                 <div class="offset-5"></div>
@@ -255,8 +259,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="offest22p2"></div>
-                <div class="col-18p55 text-center the-team">
+                <div class="offset22p2"></div>
+                <div class="col-md-4 col-18p55  text-center the-team">
                     <img src="img/Kimberly.png" alt="Employee" />
                     <h5>Kimberly Thomson</h5>
                     <p>Marketer</p>
@@ -266,7 +270,7 @@
                         <img class="social" src="img/Pinterest.png" alt="Logo" />
                     </span>
                 </div>
-                <div class="col-18p55 text-center the-team">
+                <div class="col-md-4 col-18p55  text-center the-team">
                     <img src="img/Rico.png" alt="Employee" />
                     <h5>Rico Massimo</h5>
                     <p>Coder</p>
@@ -276,7 +280,7 @@
                         <img class="social" src="img/Google+.png" alt="Logo" />
                     </span>
                 </div>
-                <div class="col-18p55 text-center the-team">
+                <div class="col-md-4 col-18p55  text-center the-team">
                     <img src="img/Uko.png" alt="Employee" />
                     <h5>Uku Mason</h5>
                     <p>Graphic Designer</p>
@@ -285,7 +289,7 @@
                         <img class="social" src="img/Pinterest.png" alt="Logo" />
                     </span>
                 </div>
-                <div class="offest22p2"></div>
+                <div class="offset22p2"></div>
             </div>
             <div class="row">
                 <div class="team-footer text-center col-12">
@@ -295,7 +299,7 @@
             </div>
         </section>
         <section class="container-fluid width-limit bg-white">
-            <div class="row">
+            <div class="row text-center">
                 <div class="logos col-12">
                     <img class="envato" src="img/Envato.png" alt="Logo" />
                     <img class="wordpress" src="img/WordPress.png" alt="Logo" />
@@ -304,9 +308,9 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid width-limit bg-world">
+        <section id="contact" class="container-fluid width-limit bg-world">
             <div class="row">
-                <div class="contact col-sm-12 text-center ">
+                <div class="contact col-12 text-center ">
                     <h1>contact us</h1>
                     <p>Proin iaculis purus consequat sem cure. </p>
                 </div>
@@ -323,41 +327,45 @@
                 </div>
             </div>
             <div class="row">
-                <div class="contact col-sm-12 text-center">
+                <div class="contact col-12 text-center">
                     <a class="btn btn-custom" href="#">send message</a>
                 </div>
             </div>
         </section>
         <footer class="container-fluid width-limit border bg-white">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-12 col-sm-6 col-md-4">
                     <p>© Copyright 2014 FreebiesXpress.com</p>
                 </div>
-                <div class="footer col-sm-4 text-center">
+                <div class="footer col-12 col-sm-6 col-md-4 text-center">
                     <span><img class="footer-social twitter" src="img/Twitter-white.png" alt="Logo" /> </span>
                     <span><img class="footer-social facebook" src="img/Facebook-white.png" alt="Logo" /></span>
                     <span><img class="footer-social pinterest" src="img/Pinterest-white.png" alt="Logo" /></span>
                     <span><img class="footer-social google" src="img/Google-white.png" alt="Logo" /></span>
                 </div>
-                <div class="offset-4"></div>
+                <div class="offset-md-4"></div>
             </div>
         </footer>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        const myNav = document.getElementById('dynamic-nav');
+        window.onscroll = function () {
+            "use strict";
+            if (window.pageYOffset >= 646) {
+                myNav.classList.add("dynamic");
+                let newMargin = 668 - window.pageYOffset;
+                newMargin >= 0 ?
+                    myNav.style.marginTop = `${newMargin}px` : myNav.style.marginTop = `0px`;
+            }
+            else {
+                myNav.classList.remove("dynamic");
+            }
+        };
+    </script>
 </body>
-<script>
-    const myNav = document.getElementById('dynamic-nav');
-    window.onscroll = function () {
-        "use strict";
-        if (window.pageYOffset >= 646) {
-            myNav.classList.add("dynamic");
-            let newMargin = 668 - window.pageYOffset;
-            newMargin >= 0 ?
-                myNav.style.marginTop = `${newMargin}px` : myNav.style.marginTop = `0px`;
-        }
-        else {
-            myNav.classList.remove("dynamic");
-        }
-    };
-</script>
 
 </html>

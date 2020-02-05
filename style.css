@@ -29,9 +29,6 @@ nav a img {
 .navbar-brand {
   margin-left: 17%;
 }
-.ml-33 {
-  margin-left: 33%;
-}
 
 .width-limit {
   width: 100%;
@@ -129,22 +126,6 @@ nav a img {
   text-transform: uppercase;
   line-height: 16px;
   background-color: #fed136;
-}
-
-.col-22p7 {
-  position: relative;
-  width: 100%;
-  -ms-flex: 0 0 22.7%;
-  flex: 0 0 22.7%;
-  max-width: 22.7%;
-}
-
-.col-18p55 {
-  position: relative;
-  width: 100%;
-  -ms-flex: 0 0 18.55%;
-  flex: 0 0 18.55;
-  max-width: 18.55%;
 }
 
 .services > h1 {
@@ -259,14 +240,14 @@ nav a img {
   margin-bottom: 85px;
 }
 .about {
-  max-height: 168px;
+  max-height: 100px;
 }
 
 .about img {
   border: 7px solid #f1f1f1;
   border-radius: 50%;
-  width: 168px;
-  height: 169px;
+  width: 100px;
+  height: 100px;
 }
 
 .about p {
@@ -301,28 +282,24 @@ nav a img {
 }
 .about h5 {
   /* Style for "Container" */
-  width: 168px;
-  height: 168px;
+  width: 100px;
+  height: 100px;
   margin: 0 auto;
   text-align: center;
-  padding: 40px 32px 34px 29px;
+  padding: 20px 16px 17px 14px;
   border: 7px solid #f1f1f1;
   background-color: #fed136;
   border-radius: 50%;
   color: #fff;
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -0.45px;
 }
 
 .about-last {
-  margin-bottom: 127px;
-}
-
-.offest22p2 {
-  margin-left: 22.174%;
+  margin-bottom: 57px;
 }
 
 .team h1 {
@@ -357,7 +334,7 @@ nav a img {
   margin: 50px 0 0 0;
 }
 .team-footer > p:last-child {
-  padding: 0 0 117px 0;
+  padding: 0 0 40px 0;
 }
 
 .the-team img {
@@ -400,9 +377,7 @@ nav a img {
 }
 
 .logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
 }
 
 .logos img {
@@ -422,7 +397,6 @@ nav a img {
   height: 41px;
 }
 .logos .microlancer {
-  /* Style for "Microlance" */
   width: 167px;
   height: 42px;
 }
@@ -446,7 +420,7 @@ nav a img {
 }
 
 .contact .btn {
-  margin-bottom: 114px;
+  margin: 70px 0 70px 0;
 }
 
 ::placeholder {
@@ -461,7 +435,6 @@ nav a img {
 
 .contact input {
   padding: 20px 0 20px 20px;
-  float: right;
   margin-bottom: 30px;
   width: 65%;
   height: 50px;
@@ -512,4 +485,61 @@ footer p {
   height: 40px;
   background-color: #222;
   border-radius: 50%;
+}
+
+@media (min-width: 576px) {
+  .contact input {
+    float: right;
+  }
+
+  .contact .btn {
+    margin: 0 0 114px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .ml-33 {
+    margin-left: 33%;
+  }
+
+@media (min-width: 1200px) {
+  .offset22p2 {
+    margin-left: 22.174%;
+  }
+  .col-18p55 {
+    position: relative;
+    width: 100%;
+    -ms-flex: 0 0 18.55%;
+    flex: 0 0 18.55%;
+    max-width: 18.55%;
+  }
+  .team-footer > p:last-child {
+    padding: 0 0 40px 0;
+  }
+
+  .about {
+    max-height: 168px;
+  }
+
+  .about img {
+    width: 168px;
+    height: 169px;
+  }
+  .about h5 {
+    /* Style for "Container" */
+    width: 168px;
+    height: 168px;
+    font-size: 18px;
+  }
+  .about-last {
+    margin-bottom: 127px;
+  }
+
+  .col-22p7 {
+    position: relative;
+    width: 100%;
+    -ms-flex: 0 0 22.7%;
+    flex: 0 0 22.7%;
+    max-width: 22.7%;
+  }
 }
