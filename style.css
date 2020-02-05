@@ -16,6 +16,12 @@ body {
 .bg-greyF9 {
   background-color: #f9f9f9;
 }
+
+.bg-world {
+  background: url("/img/bg-map.png") no-repeat no-repeat;
+  background-size: cover;
+}
+
 nav a img {
   width: 79px;
   height: 28px;
@@ -419,4 +425,91 @@ nav a img {
   /* Style for "Microlance" */
   width: 167px;
   height: 42px;
+}
+
+.contact h1 {
+  margin: 110px 0 23px 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.contact p {
+  color: #777;
+  font-family: "Droid Serif";
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 76px;
+}
+
+.contact .btn {
+  margin-bottom: 114px;
+}
+
+::placeholder {
+  color: #bbbbbb;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.35px;
+  line-height: 10px;
+}
+
+.contact input {
+  padding: 20px 0 20px 20px;
+  float: right;
+  margin-bottom: 30px;
+  width: 65%;
+  height: 50px;
+}
+
+.contact textarea {
+  padding: 20px 0 20px 20px;
+  height: 210px;
+  resize: none;
+}
+
+footer p {
+  margin: 0;
+  padding: 34px 0 34px 30px;
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.35px;
+}
+
+.footer-social {
+  margin-top: 20px;
+  width: 19px;
+  height: 16px;
+  background-color: #fff;
+}
+
+.twitter {
+  padding: 12px 11px 12px 11px;
+}
+
+.facebook {
+  padding: 11px 15px 10px 15px;
+}
+
+.pinterest {
+  padding: 10px 12px 9px;
+}
+
+.google {
+  padding: 11px 11px 12px 13px;
+}
+
+.footer > span img {
+  width: 41px;
+  height: 40px;
+  background-color: #222;
+  border-radius: 50%;
 }
