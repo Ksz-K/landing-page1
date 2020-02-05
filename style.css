@@ -13,6 +13,9 @@ body {
   background-color: #f7f7f7;
 }
 
+.bg-greyF9 {
+  background-color: #f9f9f9;
+}
 nav a img {
   width: 79px;
   height: 28px;
@@ -44,7 +47,6 @@ nav a img {
 }
 
 .dynamic {
-  margin-top: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -124,9 +126,19 @@ nav a img {
 }
 
 .col-22p7 {
+  position: relative;
+  width: 100%;
   -ms-flex: 0 0 22.7%;
   flex: 0 0 22.7%;
   max-width: 22.7%;
+}
+
+.col-18p55 {
+  position: relative;
+  width: 100%;
+  -ms-flex: 0 0 18.55%;
+  flex: 0 0 18.55;
+  max-width: 18.55%;
 }
 
 .services > h1 {
@@ -176,4 +188,235 @@ nav a img {
   margin-bottom: 27px;
   width: 68px;
   height: 68px;
+}
+
+.portfolios h1 {
+  margin: 120px 0 19px 0;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.portfolios p {
+  margin: 0 0 77px 0;
+  color: #777;
+  font-family: "Droid Serif";
+  font-size: 16px;
+  font-style: italic;
+}
+
+.portfolio {
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+.portfolio img {
+  width: 291px;
+  height: 300px;
+}
+
+.portfolio h4 {
+  margin: 29px 0 0 0;
+  color: #333;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
+}
+
+.portfolio p {
+  color: #737373;
+  font-family: "Droid Serif";
+  font-size: 14px;
+  font-style: italic;
+}
+
+.aboutus h1 {
+  margin: 120px 0 19px 0;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.aboutus p {
+  color: #777;
+  font-family: "Droid Serif";
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 85px;
+}
+.about {
+  max-height: 168px;
+}
+
+.about img {
+  border: 7px solid #f1f1f1;
+  border-radius: 50%;
+  width: 168px;
+  height: 169px;
+}
+
+.about p {
+  color: #777;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.35px;
+}
+
+.about h4 {
+  color: #222;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
+  text-transform: uppercase;
+}
+
+.text-right h4 {
+  padding: 0 2px 0 0;
+}
+
+.text-left h4 {
+  padding: 0 0 0 2px;
+}
+.about h4 span {
+  padding-bottom: 17px;
+  text-transform: none;
+}
+.about h5 {
+  /* Style for "Container" */
+  width: 168px;
+  height: 168px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 32px 34px 29px;
+  border: 7px solid #f1f1f1;
+  background-color: #fed136;
+  border-radius: 50%;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.45px;
+}
+
+.about-last {
+  margin-bottom: 127px;
+}
+
+.offest22p2 {
+  margin-left: 22.174%;
+}
+
+.team h1 {
+  color: #222;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  line-height: 40px;
+  margin: 119px 0 24px 0;
+}
+
+.team p {
+  color: #777;
+  font-family: "Droid Serif";
+  font-size: 16px;
+  font-style: italic;
+  margin: 0 0 83px 0;
+}
+
+.team-footer p {
+  color: #777;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: -0.4px;
+}
+
+.team-footer > p:first-child {
+  margin: 50px 0 0 0;
+}
+.team-footer > p:last-child {
+  padding: 0 0 117px 0;
+}
+
+.the-team img {
+  width: 220px;
+  height: 221px;
+  border: 7px solid #fff;
+  border-radius: 50%;
+}
+
+.the-team > span img {
+  width: 41px;
+  height: 41px;
+  border: 3px solid #222;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+}
+
+.social {
+  padding: 9px 10px;
+  width: 20px;
+  height: 16px;
+  background-color: #222;
+}
+
+.the-team h5 {
+  color: #222;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Montserrat - Bold";
+  letter-spacing: -0.4px;
+  line-height: 16px;
+}
+
+.the-team p {
+  color: #777;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos img {
+  margin: 61px 40px 61px 0;
+}
+.logos .envato {
+  width: 161px;
+  height: 30px;
+}
+
+.logos .wordpress {
+  width: 186px;
+  height: 42px;
+}
+.logos .tuts {
+  width: 131px;
+  height: 41px;
+}
+.logos .microlancer {
+  /* Style for "Microlance" */
+  width: 167px;
+  height: 42px;
 }
